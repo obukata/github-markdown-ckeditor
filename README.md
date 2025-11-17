@@ -16,7 +16,7 @@ CKEditor で出力された記事コンテンツ向けにスタイルを統一�
 基本的にはCDNで読み込む事を想定しています。
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@obukata/github-markdown-ckeditor@1.0.0/styles/github-markdown-ckeditor.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@obukata/github-markdown-ckeditor/styles/github-markdown-ckeditor.css">
 ```
 
 ## 注意点
