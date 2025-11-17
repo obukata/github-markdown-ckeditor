@@ -13,13 +13,11 @@ CKEditor で出力された記事コンテンツ向けにスタイルを統一�
 
 ## インストール
 
-```bash
-npm i -D @obukata/github-markdown-ckeditor
+基本的にはCDNで読み込む事を想定しています。
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@obukata/github-markdown-ckeditor@1.0.0/styles/github-markdown-ckeditor.min.css">
 ```
-
-`.node-module/@obukata/github-markdown-ckeditor/styles/github-markdown-ckediro.css`
-
-上記ファイルをHTML上で読み込むだけで CKEditor 用スタイルが適用されます。
 
 ## 注意点
 

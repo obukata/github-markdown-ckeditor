@@ -103,11 +103,11 @@ npm publish --access public
 公開が成功したら以下で確認：
 
 ```bash
-npm info @obukata/tailwind-typography-ckeditor
+npm info @obukata/github-markdown-ckeditor
 ```
 
 またはブラウザで
-👉 [https://www.npmjs.com/package/@obukata/tailwind-typography-ckeditor](https://www.npmjs.com/package/@obukata/tailwind-typography-ckeditor)
+👉 [https://www.npmjs.com/package/@obukata/github-markdown-ckeditor](https://www.npmjs.com/package/@obukata/github-markdown-ckeditor)
 
 ---
 
