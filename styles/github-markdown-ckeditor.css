@@ -916,8 +916,12 @@
   min-height: 52px;
 }
 .markdown-body {
-  max-width: 65ch;
+  max-width: 680px;
+  margin-inline: auto;
   font-family: inherit;
+  background-color: transparent;
+  color: inherit;
+  line-height: 1.75;
   h1, h2 {
     border-bottom: none;
     padding-bottom: 0px;
