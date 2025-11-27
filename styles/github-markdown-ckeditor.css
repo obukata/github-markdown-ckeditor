@@ -944,35 +944,6 @@
   h6 {
     color: var(--fgColor-default);
   }
-  a {
-    text-decoration: underline;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-  table {
-    border-width: 1px;
-    width: 100%;
-    display: table;
-    font-size: 0.875em;
-    tr:nth-child(2n) {
-      background-color: transparent;
-    }
-    th {
-      padding: 0.5rem;
-      background-color: oklch(96.7% 0.003 264.542);
-      border: 1px solid oklch(92.8% 0.006 264.531);
-      text-align: left;
-    }
-    td {
-      vertical-align: top;
-      padding: .5em;
-      border-color: oklch(92.8% 0.006 264.531);
-    }
-  }
-  blockquote {
-    font-style: italic;
-  }
   li {
     list-style-type: inherit
   }
@@ -1012,8 +983,65 @@
       }
     }
   }
+  p {
+    text-indent: 0;
+  }
+}
+.markdown-body {
+  blockquote {
+    font-style: italic;
+  }
+}
+.markdown-body {
+  table {
+    border-width: 1px;
+    width: 100%;
+    display: table;
+    font-size: 0.875em;
+    tr:nth-child(2n) {
+      background-color: transparent;
+    }
+    th {
+      padding: 0.5rem;
+      background-color: oklch(96.7% 0.003 264.542);
+      border: 1px solid oklch(92.8% 0.006 264.531);
+      text-align: left;
+    }
+    td {
+      vertical-align: top;
+      padding: .5em;
+      border-color: oklch(92.8% 0.006 264.531);
+    }
+  }
+}
+.markdown-body {
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.markdown-body {
   figure {
-    margin: 0;
+    margin: 2em 0;
+    &.image {
+      clear: both;
+      display: table;
+      margin-inline: auto;
+      & > figcaption {
+        background-color: oklch(96.7% 0.003 264.542);
+        caption-side: bottom;
+        display: table-caption;
+        outline-offset: -1px;
+        padding: .6em;
+        text-align: center;
+        color: var(--tw-prose-captions);
+        font-size: 0.875em;
+        line-height: 1.4285714;
+        margin-top: 0.8571429em;
+      }
+    }
     &.image_resized {
       margin-inline: auto;
       img {
@@ -1037,12 +1065,11 @@
     }
   }
   img {
+    vertical-align: middle;
+    height: auto;
     &.image_resized {
       width: 100%;
       height: auto;
     }
-  }
-  p {
-    text-indent: 0;
   }
 }

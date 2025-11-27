@@ -1,0 +1,22 @@
+.markdown-body {
+  table {
+    border-width: 1px;
+    width: 100%;
+    display: table;
+    font-size: 0.875em;
+    tr:nth-child(2n) {
+      background-color: transparent;
+    }
+    th {
+      padding: 0.5rem;
+      background-color: oklch(96.7% 0.003 264.542);
+      border: 1px solid oklch(92.8% 0.006 264.531);
+      text-align: left;
+    }
+    td {
+      vertical-align: top;
+      padding: .5em;
+      border-color: oklch(92.8% 0.006 264.531);
+    }
+  }
+}
